@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.section1 {
+  padding: 70px 194px 30px 194px;
+}
+
+.section1 > .title {
+  color: var(--primary-accent-1, #374639);
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 53px;
+  letter-spacing: -2.25px;
+}
+
+.section1 > .subtitle {
+  color: var(--secondary-color-1, #3f514b);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 20px 0px 40px 0px;
+  width: 419px;
+}
+
+.section1 .content {
+  display: flex;
+  gap: 23px;
+}
+
+.section1 .content .title {
+  color: #414f42;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.4px;
+  margin: 18px 0px 8px 0px;
+}
+
+.section1 .content .subtitle {
+  color: var(--secondary-color-1, #3f514b);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 6px;
+}
+
+.section1 .content .price span:first-child {
+  color: var(--secondary-subtitle, #72776c);
+  font-kerning: none;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.13px;
+  text-decoration-line: strikethrough;
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+
+.section1 .content .price span:last-child {
+  color: var(--secondary-color-1, #3f514b);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.section1 .content .week {
+  margin-top: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.section1 .content .week div {
+  padding: 12px 0px 8px 0px;
+  border-top: 1px solid gray;
+}
+
+.section1 .content .week div span:first-child {
+  color: var(--secondary-subtitle, #72776c);
+  font-kerning: none;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  margin-right: 24px;
+}
+
+.section1 .content .week div span:last-child {
+  color: var(--secondary-color-2, #4e5c58);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
